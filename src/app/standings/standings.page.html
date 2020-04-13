@@ -1,6 +1,8 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Standings</ion-title>
+    <ion-title> <ion-title> <ion-text>
+      <h3 style="color: rgb(0, 225, 255)">Standings</h3>
+  </ion-text></ion-title></ion-title>
     <ion-buttons slot="start">
       <ion-button shape="round" size="medium" color="primary" (click)="onhome()"><ion-icon name="home-sharp"></ion-icon></ion-button>
     </ion-buttons>
@@ -8,7 +10,47 @@
 </ion-header>
 
 <ion-content>
-<ion-text>
-  here list of rankings
-</ion-text>
+
+  <ion-grid>
+    <ion-row style="color: rgb(255, 196, 0); text-align: center">
+      <ion-col>Team</ion-col>
+      <ion-col>Wins</ion-col>
+      <ion-col>Losses</ion-col>
+    </ion-row>
+    <ion-row style="text-align: center">
+      <ion-col>Team 7</ion-col>
+      <ion-col>6</ion-col>
+      <ion-col>0</ion-col>
+    </ion-row>
+    <ion-row style="text-align: center">
+      <ion-col>Team 3</ion-col>
+      <ion-col>5</ion-col>
+      <ion-col>1</ion-col>
+    </ion-row>
+    <ion-row style="text-align: center">
+      <ion-col>Team 5</ion-col>
+      <ion-col>4</ion-col>
+      <ion-col>2</ion-col>
+    </ion-row>
+    <ion-row style="text-align: center">
+      <ion-col>Team 6</ion-col>
+      <ion-col>3</ion-col>
+      <ion-col>3</ion-col>
+    </ion-row>
+    <ion-row style="text-align: center">
+      <ion-col>Team 2</ion-col>
+      <ion-col>2</ion-col>
+      <ion-col>4</ion-col>
+    </ion-row>
+    <ion-row style="text-align: center">
+      <ion-col>Team 4</ion-col>
+      <ion-col>1</ion-col>
+      <ion-col>5</ion-col>
+    </ion-row>
+    <ion-row style="text-align: center">
+      <ion-col>Team 1</ion-col>
+      <ion-col>0</ion-col>
+      <ion-col>6</ion-col>
+    </ion-row>
+    </ion-grid>
 </ion-content>
