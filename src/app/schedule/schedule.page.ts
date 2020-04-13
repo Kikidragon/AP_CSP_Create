@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-schedule',
   templateUrl: './schedule.page.html',
@@ -14,4 +15,5 @@ export class SchedulePage{
   onhome(){
     this.router.navigate(['/folder/Home'])
   }
+  
 }
