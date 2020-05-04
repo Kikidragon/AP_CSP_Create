@@ -1,7 +1,8 @@
 {
   "name": "EsportsApp",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

@@ -11,7 +11,11 @@ export class HelpPage{
   constructor(private router: Router) {
    }
 
-  onhome(){
+   onlogin(){
+    this.router.navigate(['/login'])
+  }
+   onhome(){
     this.router.navigate(['/folder/Home'])
   }
+ 
 }
